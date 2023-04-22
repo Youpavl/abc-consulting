@@ -696,19 +696,19 @@ body {
 }
 
 .wrap-favor-1 {
-  background: url("../../img/services/01.png") center/cover no-repeat;
+  background: url("../img/services/01.png") center/cover no-repeat;
 }
 
 .wrap-favor-2 {
-  background: url("../../img/services/02.png") center/cover no-repeat;
+  background: url("../img/services/02.png") center/cover no-repeat;
 }
 
 .wrap-favor-3 {
-  background: url("../../img/services/03.png") center/cover no-repeat;
+  background: url("../img/services/03.png") center/cover no-repeat;
 }
 
 .wrap-favor-4 {
-  background: url("../../img/services/04.png") center/cover no-repeat;
+  background: url("../img/services/04.png") center/cover no-repeat;
 }
 
 @media (max-width: 1042px) {
