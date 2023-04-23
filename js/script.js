@@ -9,7 +9,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
 })
-$('.menu a[href="#' + window.location.pathname + '"]').addClass('font-weight: 500');
+$('.menu a[href="https://youpavl.github.io/abc-consulting/' + window.location.pathname + '"]').addClass('font-weight: 500');
 
 const messageInput = document.querySelector('.form__message');
 
