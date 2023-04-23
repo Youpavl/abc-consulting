@@ -6,10 +6,7 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function () {
-
-})
-$('.menu a[href="http://localhost:7884/' + window.location.pathname + '"]').addClass('font-weight: 500');
+$('.menu a').addClass('font-weight: 500');
 
 const messageInput = document.querySelector('.form__message');
 
@@ -18,13 +15,14 @@ const defaultMessage = 'Message';
 messageInput.value = defaultMessage;
 
 messageInput.addEventListener('focus', function () {
-	if (this.value === defaultMessage) {
-		this.value = '';
-	}
+    if (this.value === defaultMessage) {
+        this.value = '';
+    }
 });
 
 messageInput.addEventListener('blur', function () {
-	if (this.value === '') {
-		this.value = defaultMessage;
-	}
+    if (this.value === '') {
+        this.value = defaultMessage;
+    }
 });
+
